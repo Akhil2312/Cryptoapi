@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: indigo;
+  color: #f0f0f0;
+}
+
+.coin-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+.coin-search{
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-text{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.coin-input{
+  padding-left: 1rem;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  color: #f0f0f0;
+  background: linear-gradient(90deg, rgba(189,63,251,1) 38%, rgba(96,10,94,1) 57%, rgba(15,15,15,1) 79%);
+}
+
+.coin-input::placeholder{
+  color: #e2e2e2;
+}
+
+/* Pagination */
+
+.pagination{
+  justify-content: center;
+}
+
